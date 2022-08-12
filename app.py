@@ -2,11 +2,11 @@ from flask import Flask, request, json
 import xmlrpc.client
 
 app = Flask(__name__)
-url = 'https://otlkm.odoo.com'
-db = 'otlkm'
-username = 'alvaromolinac@gmail.com'
-password = 'G$hT74d$C2dmWf'
-
+url = 'https://nowmobile.odoo.com'
+db = 'nowmobile'
+username = 'kabro77@gmail.com'
+password = '@fqzz5tiQc6WA2'
+#8fb9ce842facbf92acb043fc8cebc592d57406fe
 
 @app.route('/')
 def hello_world():
