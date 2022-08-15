@@ -52,7 +52,7 @@ def subscription():
     uid = common.authenticate(db, username, password, {})
     models = xmlrpc.client.ServerProxy('{}/xmlrpc/2/object'.format(url))
     line_vals = {
-        'product_id': 6,
+        'product_id': 1,
         'uom_id': 1,
         'price_unit': 100,
     }
