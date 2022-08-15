@@ -57,7 +57,7 @@ def subscription():
         'price_unit': 100,
     }
     order_vals = {
-        'partner_id': data['client_id'],
+        'partner_id': int(data['client_id']),
         'template_id': 1,
         'stage_id' : 1,
         'recurring_invoice_line_ids' : [(0, 0, line_vals)],
